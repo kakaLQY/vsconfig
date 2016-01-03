@@ -1,0 +1,21 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "shift+cmd+[",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "shift+cmd+]",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "cmd+j",
+        "command": "editor.action.goToDeclaration",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+i",
+        "command": "editor.action.previewDeclaration",
+        "when": "editorTextFocus"
+    }
+]
